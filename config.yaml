@@ -1,0 +1,1198 @@
+features:
+- hanro_time1
+- hanro_time2
+- hanro_time3
+- hanro_time4
+- hanro_lap1
+- hanro_lap2
+- hanro_lap3
+- hanro_lap4
+- compare_overall_hanro_time1
+- compare_overall_hanro_time2
+- compare_overall_hanro_time3
+- compare_overall_hanro_time4
+- compare_overall_hanro_lap1
+- compare_overall_hanro_lap2
+- compare_overall_hanro_lap3
+- compare_overall_hanro_lap4
+- train_hanro
+- sin_date
+- cos_date
+- sin_date_sex
+- cos_date_sex
+- age
+- kinryo
+- kinryo_diff
+- kinryo_rate
+- weight
+- weight_diff
+- weight_diff_interval
+- end_of_holiday
+- interval
+- age_days
+- jockey_change
+- kaisai_change
+- race_type_change
+- course_len_change
+- course_len_change_rate
+# - populality_change
+- class_change
+- n_horses_change
+- zi_index_relative
+- mining_index_relative
+- flight_mining_index_relative
+- idm_index_relative
+# - jockey_index_relative
+- info_index_relative
+# - toral_index_relative
+# - popular_index_relative
+- stable_index_relative
+- gekiso_index_relative
+- ten_index_relative
+- ten_rank_relative
+- pace_index_relative
+- pace_rank_relative
+- last_index_relative
+- last_rank_relative
+- position_index_relative
+- position_rank_relative
+- manken_index_relative
+- start_index_relative
+- oikiri_index_relative
+- shiagari_index_relative
+- rank_diff_1R_mean_relative
+- prize_1R_mean_relative
+- agari_diff_1R_mean_relative
+- ten_3f_time_1R_mean_relative
+- pci_1R_mean_relative
+- correction_1R_mean_relative
+- correction_2_1R_mean_relative
+- zi_index_1R_mean_relative
+- mining_index_1R_mean_relative
+- flight_mining_index_1R_mean_relative
+- first_corner_score_1R_mean_relative
+- third_corner_score_1R_mean_relative
+- final_corner_score_1R_mean_relative
+- seconds_rank_1R_mean_relative
+- thirds_rank_1R_mean_relative
+- fifth_rank_1R_mean_relative
+- rank_rate_1R_mean_relative
+- speed_index_1R_mean_relative
+- agari_index_1R_mean_relative
+- ten_3f_time_index_1R_mean_relative
+- gear_1_2_1R_mean_relative
+- gear_4_5_1R_mean_relative
+- gear_3_1R_mean_relative
+- rank_diff_1R_max_relative
+- rank_diff_box_category_1R_mean_relative
+- prize_box_category_1R_mean_relative
+- agari_diff_box_category_1R_mean_relative
+- ten_3f_time_box_category_1R_mean_relative
+- pci_box_category_1R_mean_relative
+- correction_box_category_1R_mean_relative
+- correction_2_box_category_1R_mean_relative
+- zi_index_box_category_1R_mean_relative
+- mining_index_box_category_1R_mean_relative
+- flight_mining_index_box_category_1R_mean_relative
+- first_corner_score_box_category_1R_mean_relative
+- third_corner_score_box_category_1R_mean_relative
+- final_corner_score_box_category_1R_mean_relative
+- seconds_rank_box_category_1R_mean_relative
+- thirds_rank_box_category_1R_mean_relative
+- fifth_rank_box_category_1R_mean_relative
+- rank_rate_box_category_1R_mean_relative
+- speed_index_box_category_1R_mean_relative
+- agari_index_box_category_1R_mean_relative
+- ten_3f_time_index_box_category_1R_mean_relative
+- gear_1_2_box_category_1R_mean_relative
+- gear_4_5_box_category_1R_mean_relative
+- gear_3_box_category_1R_mean_relative
+- rank_diff_class_1R_mean_relative
+- prize_class_1R_mean_relative
+- agari_diff_class_1R_mean_relative
+- ten_3f_time_class_1R_mean_relative
+- pci_class_1R_mean_relative
+- correction_class_1R_mean_relative
+- correction_2_class_1R_mean_relative
+- zi_index_class_1R_mean_relative
+- mining_index_class_1R_mean_relative
+- flight_mining_index_class_1R_mean_relative
+- first_corner_score_class_1R_mean_relative
+- third_corner_score_class_1R_mean_relative
+- final_corner_score_class_1R_mean_relative
+- seconds_rank_class_1R_mean_relative
+- thirds_rank_class_1R_mean_relative
+- fifth_rank_class_1R_mean_relative
+- rank_rate_class_1R_mean_relative
+- speed_index_class_1R_mean_relative
+- agari_index_class_1R_mean_relative
+- ten_3f_time_index_class_1R_mean_relative
+- gear_1_2_class_1R_mean_relative
+- gear_4_5_class_1R_mean_relative
+- gear_3_class_1R_mean_relative
+- rank_diff_gear_1R_mean_relative
+- prize_gear_1R_mean_relative
+- agari_diff_gear_1R_mean_relative
+- ten_3f_time_gear_1R_mean_relative
+- pci_gear_1R_mean_relative
+- correction_gear_1R_mean_relative
+- correction_2_gear_1R_mean_relative
+- zi_index_gear_1R_mean_relative
+- mining_index_gear_1R_mean_relative
+- flight_mining_index_gear_1R_mean_relative
+- first_corner_score_gear_1R_mean_relative
+- third_corner_score_gear_1R_mean_relative
+- final_corner_score_gear_1R_mean_relative
+- seconds_rank_gear_1R_mean_relative
+- thirds_rank_gear_1R_mean_relative
+- fifth_rank_gear_1R_mean_relative
+- rank_rate_gear_1R_mean_relative
+- speed_index_gear_1R_mean_relative
+- agari_index_gear_1R_mean_relative
+- ten_3f_time_index_gear_1R_mean_relative
+- gear_1_2_gear_1R_mean_relative
+- gear_4_5_gear_1R_mean_relative
+- gear_3_gear_1R_mean_relative
+- rank_diff_3R_mean_relative
+- prize_3R_mean_relative
+- agari_diff_3R_mean_relative
+- ten_3f_time_3R_mean_relative
+- pci_3R_mean_relative
+- correction_3R_mean_relative
+- correction_2_3R_mean_relative
+- zi_index_3R_mean_relative
+- mining_index_3R_mean_relative
+- flight_mining_index_3R_mean_relative
+- first_corner_score_3R_mean_relative
+- third_corner_score_3R_mean_relative
+- final_corner_score_3R_mean_relative
+- seconds_rank_3R_mean_relative
+- thirds_rank_3R_mean_relative
+- fifth_rank_3R_mean_relative
+- rank_rate_3R_mean_relative
+- speed_index_3R_mean_relative
+- agari_index_3R_mean_relative
+- ten_3f_time_index_3R_mean_relative
+- gear_1_2_3R_mean_relative
+- gear_4_5_3R_mean_relative
+- gear_3_3R_mean_relative
+- rank_diff_3R_max_relative
+- agari_3R_max_relative
+- prize_3R_max_relative
+- agari_diff_3R_max_relative
+- pci_3R_max_relative
+- correction_3R_max_relative
+- correction_2_3R_max_relative
+- zi_index_3R_max_relative
+- mining_index_3R_max_relative
+- flight_mining_index_3R_max_relative
+- first_corner_score_3R_max_relative
+- third_corner_score_3R_max_relative
+- final_corner_score_3R_max_relative
+- speed_index_3R_max_relative
+- agari_index_3R_max_relative
+- ten_3f_time_index_3R_max_relative
+- gear_1_2_3R_max_relative
+- gear_4_5_3R_max_relative
+- gear_3_3R_max_relative
+- rank_diff_3R_min_relative
+- agari_3R_min_relative
+- prize_3R_min_relative
+- agari_diff_3R_min_relative
+- pci_3R_min_relative
+- correction_3R_min_relative
+- correction_2_3R_min_relative
+- zi_index_3R_min_relative
+- mining_index_3R_min_relative
+- flight_mining_index_3R_min_relative
+- first_corner_score_3R_min_relative
+- third_corner_score_3R_min_relative
+- final_corner_score_3R_min_relative
+- speed_index_3R_min_relative
+- agari_index_3R_min_relative
+- ten_3f_time_index_3R_min_relative
+- gear_1_2_3R_min_relative
+- gear_4_5_3R_min_relative
+- gear_3_3R_min_relative
+- rank_diff_box_category_3R_mean_relative
+- prize_box_category_3R_mean_relative
+- agari_diff_box_category_3R_mean_relative
+- ten_3f_time_box_category_3R_mean_relative
+- pci_box_category_3R_mean_relative
+- correction_box_category_3R_mean_relative
+- correction_2_box_category_3R_mean_relative
+- zi_index_box_category_3R_mean_relative
+- mining_index_box_category_3R_mean_relative
+- flight_mining_index_box_category_3R_mean_relative
+- first_corner_score_box_category_3R_mean_relative
+- third_corner_score_box_category_3R_mean_relative
+- final_corner_score_box_category_3R_mean_relative
+- seconds_rank_box_category_3R_mean_relative
+- thirds_rank_box_category_3R_mean_relative
+- fifth_rank_box_category_3R_mean_relative
+- rank_rate_box_category_3R_mean_relative
+- speed_index_box_category_3R_mean_relative
+- agari_index_box_category_3R_mean_relative
+- ten_3f_time_index_box_category_3R_mean_relative
+- gear_1_2_box_category_3R_mean_relative
+- gear_4_5_box_category_3R_mean_relative
+- gear_3_box_category_3R_mean_relative
+- rank_diff_box_category_3R_max_relative
+- agari_box_category_3R_max_relative
+- prize_box_category_3R_max_relative
+- agari_diff_box_category_3R_max_relative
+- pci_box_category_3R_max_relative
+- correction_box_category_3R_max_relative
+- correction_2_box_category_3R_max_relative
+- zi_index_box_category_3R_max_relative
+- mining_index_box_category_3R_max_relative
+- flight_mining_index_box_category_3R_max_relative
+- first_corner_score_box_category_3R_max_relative
+- third_corner_score_box_category_3R_max_relative
+- final_corner_score_box_category_3R_max_relative
+- speed_index_box_category_3R_max_relative
+- agari_index_box_category_3R_max_relative
+- ten_3f_time_index_box_category_3R_max_relative
+- gear_1_2_box_category_3R_max_relative
+- gear_4_5_box_category_3R_max_relative
+- gear_3_box_category_3R_max_relative
+- rank_diff_box_category_3R_min_relative
+- prize_box_category_3R_min_relative
+- agari_diff_box_category_3R_min_relative
+- pci_box_category_3R_min_relative
+- pci3_box_category_3R_min_relative
+- rpci_box_category_3R_min_relative
+- correction_box_category_3R_min_relative
+- correction_2_box_category_3R_min_relative
+- zi_index_box_category_3R_min_relative
+- mining_index_box_category_3R_min_relative
+- flight_mining_index_box_category_3R_min_relative
+- first_corner_score_box_category_3R_min_relative
+- third_corner_score_box_category_3R_min_relative
+- final_corner_score_box_category_3R_min_relative
+- speed_index_box_category_3R_min_relative
+- agari_index_box_category_3R_min_relative
+- ten_3f_time_index_box_category_3R_min_relative
+- gear_1_2_box_category_3R_min_relative
+- gear_4_5_box_category_3R_min_relative
+- gear_3_box_category_3R_min_relative
+- rank_diff_class_3R_mean_relative
+- prize_class_3R_mean_relative
+- agari_diff_class_3R_mean_relative
+- ten_3f_time_class_3R_mean_relative
+- pci_class_3R_mean_relative
+- correction_class_3R_mean_relative
+- correction_2_class_3R_mean_relative
+- zi_index_class_3R_mean_relative
+- mining_index_class_3R_mean_relative
+- flight_mining_index_class_3R_mean_relative
+- first_corner_score_class_3R_mean_relative
+- third_corner_score_class_3R_mean_relative
+- final_corner_score_class_3R_mean_relative
+- seconds_rank_class_3R_mean_relative
+- thirds_rank_class_3R_mean_relative
+- fifth_rank_class_3R_mean_relative
+- rank_rate_class_3R_mean_relative
+- speed_index_class_3R_mean_relative
+- agari_index_class_3R_mean_relative
+- ten_3f_time_index_class_3R_mean_relative
+- gear_1_2_class_3R_mean_relative
+- gear_4_5_class_3R_mean_relative
+- gear_3_class_3R_mean_relative
+- rank_diff_class_3R_max_relative
+- agari_class_3R_max_relative
+- prize_class_3R_max_relative
+- agari_diff_class_3R_max_relative
+- pci_class_3R_max_relative
+- correction_class_3R_max_relative
+- correction_2_class_3R_max_relative
+- zi_index_class_3R_max_relative
+- mining_index_class_3R_max_relative
+- flight_mining_index_class_3R_max_relative
+- first_corner_score_class_3R_max_relative
+- third_corner_score_class_3R_max_relative
+- final_corner_score_class_3R_max_relative
+- speed_index_class_3R_max_relative
+- agari_index_class_3R_max_relative
+- ten_3f_time_index_class_3R_max_relative
+- gear_1_2_class_3R_max_relative
+- gear_4_5_class_3R_max_relative
+- gear_3_class_3R_max_relative
+- rank_diff_class_3R_min_relative
+- prize_class_3R_min_relative
+- agari_diff_class_3R_min_relative
+- pci_class_3R_min_relative
+- pci3_class_3R_min_relative
+- rpci_class_3R_min_relative
+- correction_class_3R_min_relative
+- correction_2_class_3R_min_relative
+- zi_index_class_3R_min_relative
+- mining_index_class_3R_min_relative
+- flight_mining_index_class_3R_min_relative
+- first_corner_score_class_3R_min_relative
+- third_corner_score_class_3R_min_relative
+- final_corner_score_class_3R_min_relative
+- speed_index_class_3R_min_relative
+- agari_index_class_3R_min_relative
+- ten_3f_time_index_class_3R_min_relative
+- gear_1_2_class_3R_min_relative
+- gear_4_5_class_3R_min_relative
+- gear_3_class_3R_min_relative
+- rank_diff_gear_3R_mean_relative
+- prize_gear_3R_mean_relative
+- agari_diff_gear_3R_mean_relative
+- ten_3f_time_gear_3R_mean_relative
+- pci_gear_3R_mean_relative
+- correction_gear_3R_mean_relative
+- correction_2_gear_3R_mean_relative
+- zi_index_gear_3R_mean_relative
+- mining_index_gear_3R_mean_relative
+- flight_mining_index_gear_3R_mean_relative
+- first_corner_score_gear_3R_mean_relative
+- third_corner_score_gear_3R_mean_relative
+- final_corner_score_gear_3R_mean_relative
+- seconds_rank_gear_3R_mean_relative
+- thirds_rank_gear_3R_mean_relative
+- fifth_rank_gear_3R_mean_relative
+- rank_rate_gear_3R_mean_relative
+- speed_index_gear_3R_mean_relative
+- agari_index_gear_3R_mean_relative
+- ten_3f_time_index_gear_3R_mean_relative
+- gear_1_2_gear_3R_mean_relative
+- gear_4_5_gear_3R_mean_relative
+- gear_3_gear_3R_mean_relative
+- rank_diff_gear_3R_max_relative
+- agari_gear_3R_max_relative
+- prize_gear_3R_max_relative
+- agari_diff_gear_3R_max_relative
+- pci_gear_3R_max_relative
+- correction_gear_3R_max_relative
+- correction_2_gear_3R_max_relative
+- zi_index_gear_3R_max_relative
+- mining_index_gear_3R_max_relative
+- flight_mining_index_gear_3R_max_relative
+- first_corner_score_gear_3R_max_relative
+- third_corner_score_gear_3R_max_relative
+- final_corner_score_gear_3R_max_relative
+- speed_index_gear_3R_max_relative
+- agari_index_gear_3R_max_relative
+- ten_3f_time_index_gear_3R_max_relative
+- gear_1_2_gear_3R_max_relative
+- gear_4_5_gear_3R_max_relative
+- gear_3_gear_3R_max_relative
+- rank_diff_gear_3R_min_relative
+- prize_gear_3R_min_relative
+- agari_diff_gear_3R_min_relative
+- pci_gear_3R_min_relative
+- pci3_gear_3R_min_relative
+- rpci_gear_3R_min_relative
+- correction_gear_3R_min_relative
+- correction_2_gear_3R_min_relative
+- zi_index_gear_3R_min_relative
+- mining_index_gear_3R_min_relative
+- flight_mining_index_gear_3R_min_relative
+- first_corner_score_gear_3R_min_relative
+- third_corner_score_gear_3R_min_relative
+- final_corner_score_gear_3R_min_relative
+- speed_index_gear_3R_min_relative
+- agari_index_gear_3R_min_relative
+- ten_3f_time_index_gear_3R_min_relative
+- gear_1_2_gear_3R_min_relative
+- gear_4_5_gear_3R_min_relative
+- gear_3_gear_3R_min_relative
+- rank_diff_5R_mean_relative
+- prize_5R_mean_relative
+- agari_diff_5R_mean_relative
+- ten_3f_time_5R_mean_relative
+- pci_5R_mean_relative
+- correction_5R_mean_relative
+- correction_2_5R_mean_relative
+- zi_index_5R_mean_relative
+- mining_index_5R_mean_relative
+- flight_mining_index_5R_mean_relative
+- first_corner_score_5R_mean_relative
+- third_corner_score_5R_mean_relative
+- final_corner_score_5R_mean_relative
+- seconds_rank_5R_mean_relative
+- thirds_rank_5R_mean_relative
+- fifth_rank_5R_mean_relative
+- rank_rate_5R_mean_relative
+- speed_index_5R_mean_relative
+- agari_index_5R_mean_relative
+- ten_3f_time_index_5R_mean_relative
+- gear_1_2_5R_mean_relative
+- gear_4_5_5R_mean_relative
+- gear_3_5R_mean_relative
+- rank_diff_5R_max_relative
+- agari_5R_max_relative
+- prize_5R_max_relative
+- agari_diff_5R_max_relative
+- pci_5R_max_relative
+- correction_5R_max_relative
+- correction_2_5R_max_relative
+- zi_index_5R_max_relative
+- mining_index_5R_max_relative
+- flight_mining_index_5R_max_relative
+- first_corner_score_5R_max_relative
+- third_corner_score_5R_max_relative
+- final_corner_score_5R_max_relative
+- speed_index_5R_max_relative
+- agari_index_5R_max_relative
+- ten_3f_time_index_5R_max_relative
+- gear_1_2_5R_max_relative
+- gear_4_5_5R_max_relative
+- gear_3_5R_max_relative
+- rank_diff_5R_min_relative
+- agari_5R_min_relative
+- prize_5R_min_relative
+- agari_diff_5R_min_relative
+- pci_5R_min_relative
+- correction_5R_min_relative
+- correction_2_5R_min_relative
+- zi_index_5R_min_relative
+- mining_index_5R_min_relative
+- flight_mining_index_5R_min_relative
+- first_corner_score_5R_min_relative
+- third_corner_score_5R_min_relative
+- final_corner_score_5R_min_relative
+- speed_index_5R_min_relative
+- agari_index_5R_min_relative
+- ten_3f_time_index_5R_min_relative
+- gear_1_2_5R_min_relative
+- gear_4_5_5R_min_relative
+- gear_3_5R_min_relative
+- rank_diff_box_category_5R_mean_relative
+- prize_box_category_5R_mean_relative
+- agari_diff_box_category_5R_mean_relative
+- ten_3f_time_box_category_5R_mean_relative
+- pci_box_category_5R_mean_relative
+- correction_box_category_5R_mean_relative
+- correction_2_box_category_5R_mean_relative
+- zi_index_box_category_5R_mean_relative
+- mining_index_box_category_5R_mean_relative
+- flight_mining_index_box_category_5R_mean_relative
+- first_corner_score_box_category_5R_mean_relative
+- third_corner_score_box_category_5R_mean_relative
+- final_corner_score_box_category_5R_mean_relative
+- seconds_rank_box_category_5R_mean_relative
+- thirds_rank_box_category_5R_mean_relative
+- fifth_rank_box_category_5R_mean_relative
+- rank_rate_box_category_5R_mean_relative
+- speed_index_box_category_5R_mean_relative
+- agari_index_box_category_5R_mean_relative
+- ten_3f_time_index_box_category_5R_mean_relative
+- gear_1_2_box_category_5R_mean_relative
+- gear_4_5_box_category_5R_mean_relative
+- gear_3_box_category_5R_mean_relative
+- rank_diff_box_category_5R_max_relative
+- agari_box_category_5R_max_relative
+- prize_box_category_5R_max_relative
+- agari_diff_box_category_5R_max_relative
+- pci_box_category_5R_max_relative
+- correction_box_category_5R_max_relative
+- correction_2_box_category_5R_max_relative
+- zi_index_box_category_5R_max_relative
+- mining_index_box_category_5R_max_relative
+- flight_mining_index_box_category_5R_max_relative
+- first_corner_score_box_category_5R_max_relative
+- third_corner_score_box_category_5R_max_relative
+- final_corner_score_box_category_5R_max_relative
+- speed_index_box_category_5R_max_relative
+- agari_index_box_category_5R_max_relative
+- ten_3f_time_index_box_category_5R_max_relative
+- gear_1_2_box_category_5R_max_relative
+- gear_4_5_box_category_5R_max_relative
+- gear_3_box_category_5R_max_relative
+- rank_diff_box_category_5R_min_relative
+- prize_box_category_5R_min_relative
+- agari_diff_box_category_5R_min_relative
+- pci_box_category_5R_min_relative
+- pci3_box_category_5R_min_relative
+- rpci_box_category_5R_min_relative
+- correction_box_category_5R_min_relative
+- correction_2_box_category_5R_min_relative
+- zi_index_box_category_5R_min_relative
+- mining_index_box_category_5R_min_relative
+- flight_mining_index_box_category_5R_min_relative
+- first_corner_score_box_category_5R_min_relative
+- third_corner_score_box_category_5R_min_relative
+- final_corner_score_box_category_5R_min_relative
+- speed_index_box_category_5R_min_relative
+- agari_index_box_category_5R_min_relative
+- ten_3f_time_index_box_category_5R_min_relative
+- gear_1_2_box_category_5R_min_relative
+- gear_4_5_box_category_5R_min_relative
+- gear_3_box_category_5R_min_relative
+- rank_diff_class_5R_mean_relative
+- prize_class_5R_mean_relative
+- agari_diff_class_5R_mean_relative
+- ten_3f_time_class_5R_mean_relative
+- pci_class_5R_mean_relative
+- correction_class_5R_mean_relative
+- correction_2_class_5R_mean_relative
+- zi_index_class_5R_mean_relative
+- mining_index_class_5R_mean_relative
+- flight_mining_index_class_5R_mean_relative
+- first_corner_score_class_5R_mean_relative
+- third_corner_score_class_5R_mean_relative
+- final_corner_score_class_5R_mean_relative
+- seconds_rank_class_5R_mean_relative
+- thirds_rank_class_5R_mean_relative
+- fifth_rank_class_5R_mean_relative
+- rank_rate_class_5R_mean_relative
+- speed_index_class_5R_mean_relative
+- agari_index_class_5R_mean_relative
+- ten_3f_time_index_class_5R_mean_relative
+- gear_1_2_class_5R_mean_relative
+- gear_4_5_class_5R_mean_relative
+- gear_3_class_5R_mean_relative
+- rank_diff_class_5R_max_relative
+- agari_class_5R_max_relative
+- prize_class_5R_max_relative
+- agari_diff_class_5R_max_relative
+- pci_class_5R_max_relative
+- correction_class_5R_max_relative
+- correction_2_class_5R_max_relative
+- zi_index_class_5R_max_relative
+- mining_index_class_5R_max_relative
+- flight_mining_index_class_5R_max_relative
+- first_corner_score_class_5R_max_relative
+- third_corner_score_class_5R_max_relative
+- final_corner_score_class_5R_max_relative
+- speed_index_class_5R_max_relative
+- agari_index_class_5R_max_relative
+- ten_3f_time_index_class_5R_max_relative
+- gear_1_2_class_5R_max_relative
+- gear_4_5_class_5R_max_relative
+- gear_3_class_5R_max_relative
+- rank_diff_class_5R_min_relative
+- prize_class_5R_min_relative
+- agari_diff_class_5R_min_relative
+- pci_class_5R_min_relative
+- pci3_class_5R_min_relative
+- rpci_class_5R_min_relative
+- correction_class_5R_min_relative
+- correction_2_class_5R_min_relative
+- zi_index_class_5R_min_relative
+- mining_index_class_5R_min_relative
+- flight_mining_index_class_5R_min_relative
+- first_corner_score_class_5R_min_relative
+- third_corner_score_class_5R_min_relative
+- final_corner_score_class_5R_min_relative
+- speed_index_class_5R_min_relative
+- agari_index_class_5R_min_relative
+- ten_3f_time_index_class_5R_min_relative
+- gear_1_2_class_5R_min_relative
+- gear_4_5_class_5R_min_relative
+- gear_3_class_5R_min_relative
+- rank_diff_gear_5R_mean_relative
+- prize_gear_5R_mean_relative
+- agari_diff_gear_5R_mean_relative
+- ten_3f_time_gear_5R_mean_relative
+- pci_gear_5R_mean_relative
+- correction_gear_5R_mean_relative
+- correction_2_gear_5R_mean_relative
+- zi_index_gear_5R_mean_relative
+- mining_index_gear_5R_mean_relative
+- flight_mining_index_gear_5R_mean_relative
+- first_corner_score_gear_5R_mean_relative
+- third_corner_score_gear_5R_mean_relative
+- final_corner_score_gear_5R_mean_relative
+- seconds_rank_gear_5R_mean_relative
+- thirds_rank_gear_5R_mean_relative
+- fifth_rank_gear_5R_mean_relative
+- rank_rate_gear_5R_mean_relative
+- speed_index_gear_5R_mean_relative
+- agari_index_gear_5R_mean_relative
+- ten_3f_time_index_gear_5R_mean_relative
+- gear_1_2_gear_5R_mean_relative
+- gear_4_5_gear_5R_mean_relative
+- gear_3_gear_5R_mean_relative
+- rank_diff_gear_5R_max_relative
+- agari_gear_5R_max_relative
+- prize_gear_5R_max_relative
+- agari_diff_gear_5R_max_relative
+- pci_gear_5R_max_relative
+- correction_gear_5R_max_relative
+- correction_2_gear_5R_max_relative
+- zi_index_gear_5R_max_relative
+- mining_index_gear_5R_max_relative
+- flight_mining_index_gear_5R_max_relative
+- first_corner_score_gear_5R_max_relative
+- third_corner_score_gear_5R_max_relative
+- final_corner_score_gear_5R_max_relative
+- speed_index_gear_5R_max_relative
+- agari_index_gear_5R_max_relative
+- ten_3f_time_index_gear_5R_max_relative
+- gear_1_2_gear_5R_max_relative
+- gear_4_5_gear_5R_max_relative
+- gear_3_gear_5R_max_relative
+- rank_diff_gear_5R_min_relative
+- prize_gear_5R_min_relative
+- agari_diff_gear_5R_min_relative
+- pci_gear_5R_min_relative
+- pci3_gear_5R_min_relative
+- rpci_gear_5R_min_relative
+- correction_gear_5R_min_relative
+- correction_2_gear_5R_min_relative
+- zi_index_gear_5R_min_relative
+- mining_index_gear_5R_min_relative
+- flight_mining_index_gear_5R_min_relative
+- first_corner_score_gear_5R_min_relative
+- third_corner_score_gear_5R_min_relative
+- final_corner_score_gear_5R_min_relative
+- speed_index_gear_5R_min_relative
+- agari_index_gear_5R_min_relative
+- ten_3f_time_index_gear_5R_min_relative
+- gear_1_2_gear_5R_min_relative
+- gear_4_5_gear_5R_min_relative
+- gear_3_gear_5R_min_relative
+# - rank_diff_8R_mean_relative
+# - prize_8R_mean_relative
+# - agari_diff_8R_mean_relative
+# - ten_3f_time_8R_mean_relative
+# - pci_8R_mean_relative
+# - correction_8R_mean_relative
+# - correction_2_8R_mean_relative
+# - zi_index_8R_mean_relative
+# - mining_index_8R_mean_relative
+# - flight_mining_index_8R_mean_relative
+# - first_corner_score_8R_mean_relative
+# - third_corner_score_8R_mean_relative
+# - final_corner_score_8R_mean_relative
+# - seconds_rank_8R_mean_relative
+# - thirds_rank_8R_mean_relative
+# - fifth_rank_8R_mean_relative
+# - rank_rate_8R_mean_relative
+# - speed_index_8R_mean_relative
+# - agari_index_8R_mean_relative
+# - ten_3f_time_index_8R_mean_relative
+# - gear_1_2_8R_mean_relative
+# - gear_4_5_8R_mean_relative
+# - gear_3_8R_mean_relative
+# - rank_diff_8R_max_relative
+# - agari_8R_max_relative
+# - prize_8R_max_relative
+# - agari_diff_8R_max_relative
+# - pci_8R_max_relative
+# - correction_8R_max_relative
+# - correction_2_8R_max_relative
+# - zi_index_8R_max_relative
+# - mining_index_8R_max_relative
+# - flight_mining_index_8R_max_relative
+# - first_corner_score_8R_max_relative
+# - third_corner_score_8R_max_relative
+# - final_corner_score_8R_max_relative
+# - speed_index_8R_max_relative
+# - agari_index_8R_max_relative
+# - ten_3f_time_index_8R_max_relative
+# - gear_1_2_8R_max_relative
+# - gear_4_5_8R_max_relative
+# - gear_3_8R_max_relative
+# - rank_diff_8R_min_relative
+# - agari_8R_min_relative
+# - prize_8R_min_relative
+# - agari_diff_8R_min_relative
+# - pci_8R_min_relative
+# - correction_8R_min_relative
+# - correction_2_8R_min_relative
+# - zi_index_8R_min_relative
+# - mining_index_8R_min_relative
+# - flight_mining_index_8R_min_relative
+# - first_corner_score_8R_min_relative
+# - third_corner_score_8R_min_relative
+# - final_corner_score_8R_min_relative
+# - speed_index_8R_min_relative
+# - agari_index_8R_min_relative
+# - ten_3f_time_index_8R_min_relative
+# - gear_1_2_8R_min_relative
+# - gear_4_5_8R_min_relative
+# - gear_3_8R_min_relative
+# - rank_diff_box_category_8R_mean_relative
+# - prize_box_category_8R_mean_relative
+# - agari_diff_box_category_8R_mean_relative
+# - ten_3f_time_box_category_8R_mean_relative
+# - pci_box_category_8R_mean_relative
+# - correction_box_category_8R_mean_relative
+# - correction_2_box_category_8R_mean_relative
+# - zi_index_box_category_8R_mean_relative
+# - mining_index_box_category_8R_mean_relative
+# - flight_mining_index_box_category_8R_mean_relative
+# - first_corner_score_box_category_8R_mean_relative
+# - third_corner_score_box_category_8R_mean_relative
+# - final_corner_score_box_category_8R_mean_relative
+# - seconds_rank_box_category_8R_mean_relative
+# - thirds_rank_box_category_8R_mean_relative
+# - fifth_rank_box_category_8R_mean_relative
+# - rank_rate_box_category_8R_mean_relative
+# - speed_index_box_category_8R_mean_relative
+# - agari_index_box_category_8R_mean_relative
+# - ten_3f_time_index_box_category_8R_mean_relative
+# - gear_1_2_box_category_8R_mean_relative
+# - gear_4_5_box_category_8R_mean_relative
+# - gear_3_box_category_8R_mean_relative
+# - rank_diff_box_category_8R_max_relative
+# - agari_box_category_8R_max_relative
+# - prize_box_category_8R_max_relative
+# - agari_diff_box_category_8R_max_relative
+# - pci_box_category_8R_max_relative
+# - correction_box_category_8R_max_relative
+# - correction_2_box_category_8R_max_relative
+# - zi_index_box_category_8R_max_relative
+# - mining_index_box_category_8R_max_relative
+# - flight_mining_index_box_category_8R_max_relative
+# - first_corner_score_box_category_8R_max_relative
+# - third_corner_score_box_category_8R_max_relative
+# - final_corner_score_box_category_8R_max_relative
+# - speed_index_box_category_8R_max_relative
+# - agari_index_box_category_8R_max_relative
+# - ten_3f_time_index_box_category_8R_max_relative
+# - gear_1_2_box_category_8R_max_relative
+# - gear_4_5_box_category_8R_max_relative
+# - gear_3_box_category_8R_max_relative
+# - rank_diff_box_category_8R_min_relative
+# - prize_box_category_8R_min_relative
+# - agari_diff_box_category_8R_min_relative
+# - pci_box_category_8R_min_relative
+# - pci3_box_category_8R_min_relative
+# - rpci_box_category_8R_min_relative
+# - correction_box_category_8R_min_relative
+# - correction_2_box_category_8R_min_relative
+# - zi_index_box_category_8R_min_relative
+# - mining_index_box_category_8R_min_relative
+# - flight_mining_index_box_category_8R_min_relative
+# - first_corner_score_box_category_8R_min_relative
+# - third_corner_score_box_category_8R_min_relative
+# - final_corner_score_box_category_8R_min_relative
+# - speed_index_box_category_8R_min_relative
+# - agari_index_box_category_8R_min_relative
+# - ten_3f_time_index_box_category_8R_min_relative
+# - gear_1_2_box_category_8R_min_relative
+# - gear_4_5_box_category_8R_min_relative
+# - gear_3_box_category_8R_min_relative
+# - rank_diff_class_8R_mean_relative
+# - prize_class_8R_mean_relative
+# - agari_diff_class_8R_mean_relative
+# - ten_3f_time_class_8R_mean_relative
+# - pci_class_8R_mean_relative
+# - correction_class_8R_mean_relative
+# - correction_2_class_8R_mean_relative
+# - zi_index_class_8R_mean_relative
+# - mining_index_class_8R_mean_relative
+# - flight_mining_index_class_8R_mean_relative
+# - first_corner_score_class_8R_mean_relative
+# - third_corner_score_class_8R_mean_relative
+# - final_corner_score_class_8R_mean_relative
+# - seconds_rank_class_8R_mean_relative
+# - thirds_rank_class_8R_mean_relative
+# - fifth_rank_class_8R_mean_relative
+# - rank_rate_class_8R_mean_relative
+# - speed_index_class_8R_mean_relative
+# - agari_index_class_8R_mean_relative
+# - ten_3f_time_index_class_8R_mean_relative
+# - gear_1_2_class_8R_mean_relative
+# - gear_4_5_class_8R_mean_relative
+# - gear_3_class_8R_mean_relative
+# - rank_diff_class_8R_max_relative
+# - agari_class_8R_max_relative
+# - prize_class_8R_max_relative
+# - agari_diff_class_8R_max_relative
+# - pci_class_8R_max_relative
+# - correction_class_8R_max_relative
+# - correction_2_class_8R_max_relative
+# - zi_index_class_8R_max_relative
+# - mining_index_class_8R_max_relative
+# - flight_mining_index_class_8R_max_relative
+# - first_corner_score_class_8R_max_relative
+# - third_corner_score_class_8R_max_relative
+# - final_corner_score_class_8R_max_relative
+# - speed_index_class_8R_max_relative
+# - agari_index_class_8R_max_relative
+# - ten_3f_time_index_class_8R_max_relative
+# - gear_1_2_class_8R_max_relative
+# - gear_4_5_class_8R_max_relative
+# - gear_3_class_8R_max_relative
+# - rank_diff_class_8R_min_relative
+# - prize_class_8R_min_relative
+# - agari_diff_class_8R_min_relative
+# - pci_class_8R_min_relative
+# - pci3_class_8R_min_relative
+# - rpci_class_8R_min_relative
+# - correction_class_8R_min_relative
+# - correction_2_class_8R_min_relative
+# - zi_index_class_8R_min_relative
+# - mining_index_class_8R_min_relative
+# - flight_mining_index_class_8R_min_relative
+# - first_corner_score_class_8R_min_relative
+# - third_corner_score_class_8R_min_relative
+# - final_corner_score_class_8R_min_relative
+# - speed_index_class_8R_min_relative
+# - agari_index_class_8R_min_relative
+# - ten_3f_time_index_class_8R_min_relative
+# - gear_1_2_class_8R_min_relative
+# - gear_4_5_class_8R_min_relative
+# - gear_3_class_8R_min_relative
+# - rank_diff_gear_8R_mean_relative
+# - prize_gear_8R_mean_relative
+# - agari_diff_gear_8R_mean_relative
+# - ten_3f_time_gear_8R_mean_relative
+# - pci_gear_8R_mean_relative
+# - correction_gear_8R_mean_relative
+# - correction_2_gear_8R_mean_relative
+# - zi_index_gear_8R_mean_relative
+# - mining_index_gear_8R_mean_relative
+# - flight_mining_index_gear_8R_mean_relative
+# - first_corner_score_gear_8R_mean_relative
+# - third_corner_score_gear_8R_mean_relative
+# - final_corner_score_gear_8R_mean_relative
+# - seconds_rank_gear_8R_mean_relative
+# - thirds_rank_gear_8R_mean_relative
+# - fifth_rank_gear_8R_mean_relative
+# - rank_rate_gear_8R_mean_relative
+# - speed_index_gear_8R_mean_relative
+# - agari_index_gear_8R_mean_relative
+# - ten_3f_time_index_gear_8R_mean_relative
+# - gear_1_2_gear_8R_mean_relative
+# - gear_4_5_gear_8R_mean_relative
+# - gear_3_gear_8R_mean_relative
+# - rank_diff_gear_8R_max_relative
+# - agari_gear_8R_max_relative
+# - prize_gear_8R_max_relative
+# - agari_diff_gear_8R_max_relative
+# - pci_gear_8R_max_relative
+# - correction_gear_8R_max_relative
+# - correction_2_gear_8R_max_relative
+# - zi_index_gear_8R_max_relative
+# - mining_index_gear_8R_max_relative
+# - flight_mining_index_gear_8R_max_relative
+# - first_corner_score_gear_8R_max_relative
+# - third_corner_score_gear_8R_max_relative
+# - final_corner_score_gear_8R_max_relative
+# - speed_index_gear_8R_max_relative
+# - agari_index_gear_8R_max_relative
+# - ten_3f_time_index_gear_8R_max_relative
+# - gear_1_2_gear_8R_max_relative
+# - gear_4_5_gear_8R_max_relative
+# - gear_3_gear_8R_max_relative
+# - rank_diff_gear_8R_min_relative
+# - prize_gear_8R_min_relative
+# - agari_diff_gear_8R_min_relative
+# - pci_gear_8R_min_relative
+# - pci3_gear_8R_min_relative
+# - rpci_gear_8R_min_relative
+# - correction_gear_8R_min_relative
+# - correction_2_gear_8R_min_relative
+# - zi_index_gear_8R_min_relative
+# - mining_index_gear_8R_min_relative
+# - flight_mining_index_gear_8R_min_relative
+# - first_corner_score_gear_8R_min_relative
+# - third_corner_score_gear_8R_min_relative
+# - final_corner_score_gear_8R_min_relative
+# - speed_index_gear_8R_min_relative
+# - agari_index_gear_8R_min_relative
+# - ten_3f_time_index_gear_8R_min_relative
+# - gear_1_2_gear_8R_min_relative
+# - gear_4_5_gear_8R_min_relative
+# - gear_3_gear_8R_min_relative
+- jockey_winrate
+- jockey_rentai_rate
+- jockey_fukusho_rate
+- jockey_second_rate
+- jockey_third_rate
+- jockey_first_population_rate
+- jockey_third_population_rate
+- jockey_fifth_population_rate
+- jockey_under_forth_population_rate
+- jockey_under_sixth_population_rate
+- trainer_winrate
+- trainer_rentai_rate
+- trainer_fukusho_rate
+- trainer_second_rate
+- trainer_third_rate
+- trainer_first_population_rate
+- trainer_third_population_rate
+- trainer_fifth_population_rate
+- trainer_under_forth_population_rate
+- trainer_under_sixth_population_rate
+- sir_winrate
+- sir_rentai_rate
+- sir_fukusho_rate
+- sir_second_rate
+- sir_third_rate
+- sir_first_population_rate
+- sir_third_population_rate
+- sir_fifth_population_rate
+- sir_under_forth_population_rate
+- sir_under_sixth_population_rate
+- bms_winrate
+- bms_rentai_rate
+- bms_fukusho_rate
+- bms_second_rate
+- bms_third_rate
+- bms_first_population_rate
+- bms_third_population_rate
+- bms_fifth_population_rate
+- bms_under_forth_population_rate
+- bms_under_sixth_population_rate
+- temperature
+- wind_speed
+- humidity
+- horse_jockey_win_rate
+- horse_jockey_place_rate
+- horse_jockey_total_races
+# - race_type_00
+# - race_type_01
+- sex_00
+- sex_01
+- sex_02
+- umaban_uma1
+- umaban_uma10
+- umaban_uma11
+- umaban_uma12
+- umaban_uma13
+- umaban_uma14
+- umaban_uma15
+- umaban_uma16
+- umaban_uma17
+- umaban_uma18
+- umaban_uma2
+- umaban_uma3
+- umaban_uma4
+- umaban_uma5
+- umaban_uma6
+- umaban_uma7
+- umaban_uma8
+- umaban_uma9
+- ground_state_00
+- ground_state_01
+- ground_state_02
+- ground_state_03
+- wakuban_waku1
+- wakuban_waku2
+- wakuban_waku3
+- wakuban_waku4
+- wakuban_waku5
+- wakuban_waku6
+- wakuban_waku7
+- wakuban_waku8
+- kaisai_01
+- kaisai_02
+- kaisai_03
+- kaisai_04
+- kaisai_05
+- kaisai_06
+- kaisai_07
+- kaisai_08
+- kaisai_09
+- kaisai_10
+- blinker_0
+- blinker_1
+- n_horses_n_horses10
+- n_horses_n_horses11
+- n_horses_n_horses12
+- n_horses_n_horses13
+- n_horses_n_horses14
+- n_horses_n_horses15
+- n_horses_n_horses16
+- n_horses_n_horses17
+- n_horses_n_horses18
+- n_horses_n_horses6
+- n_horses_n_horses7
+- n_horses_n_horses8
+- n_horses_n_horses9
+- box_category_01
+- box_category_02
+- box_category_03
+- wind_direction_angle
+- wind_direction_rad
+- weather_vectle_x
+- weather_vectle_y
+- wind_speed_angle
+- feels_temperature
+- wind_direction_北
+- wind_direction_北北東
+- wind_direction_北北西
+- wind_direction_北東
+- wind_direction_北西
+- wind_direction_南
+- wind_direction_南南東
+- wind_direction_南南西
+- wind_direction_南東
+- wind_direction_南西
+- wind_direction_東
+- wind_direction_東北東
+- wind_direction_東南東
+- wind_direction_無風
+- wind_direction_西
+- wind_direction_西北西
+- wind_direction_西南西
+- hanro_day_of_week_0
+- hanro_day_of_week_00
+- hanro_day_of_week_01
+- hanro_day_of_week_02
+- hanro_day_of_week_03
+- hanro_day_of_week_04
+- hanro_day_of_week_05
+- hanro_day_of_week_06
+- hanro_train_kaisai_0
+- hanro_train_kaisai_00
+- hanro_train_kaisai_01
+- wood_train_kaisai_0
+- wood_train_kaisai_00
+- wood_train_kaisai_01
+- wood_train_course_0
+- wood_train_course_00
+- wood_train_course_01
+- wood_train_around_0
+- wood_train_around_00
+- wood_train_around_01
+- wood_day_of_week_0
+- wood_day_of_week_00
+- wood_day_of_week_01
+- wood_day_of_week_02
+- wood_day_of_week_03
+- wood_day_of_week_04
+- wood_day_of_week_05
+- wood_day_of_week_06
+- class_class_1.0
+- class_class_2.0
+- class_class_3.0
+- class_class_4.0
+- class_class_5.0
+- class_class_6.0
+- class_class_7.0
+- class_class_8.0
+- average_correction_3R_mean_relative
+- average_correction_2_3R_mean_relative
+- average_ten_3f_time_3R_mean_relative
+- average_zi_index_3R_mean_relative
+- average_speed_index_3R_mean_relative
+- average_agari_index_3R_mean_relative
+- max_correction_3R_mean_relative
+- max_correction_2_3R_mean_relative
+- max_ten_3f_time_3R_mean_relative
+- max_zi_index_3R_mean_relative
+- max_speed_index_3R_mean_relative
+- max_agari_index_3R_mean_relative
+- min_correction_3R_mean_relative
+- min_correction_2_3R_mean_relative
+- min_ten_3f_time_3R_mean_relative
+- min_zi_index_3R_mean_relative
+- min_speed_index_3R_mean_relative
+- min_agari_index_3R_mean_relative
+- std_dev_correction_3R_mean_relative
+- std_dev_correction_2_3R_mean_relative
+- std_dev_ten_3f_time_3R_mean_relative
+- std_dev_zi_index_3R_mean_relative
+- std_dev_speed_index_3R_mean_relative
+- std_dev_agari_index_3R_mean_relative
+- other_leg_quality_count
+- leg_quality_ratio
+- leg_quality_1R_mode_00
+- leg_quality_1R_mode_01
+- leg_quality_1R_mode_02
+- leg_quality_1R_mode_03
+- leg_quality_1R_mode_04
+- leg_quality_3R_mode_00
+- leg_quality_3R_mode_01
+- leg_quality_3R_mode_02
+- leg_quality_3R_mode_03
+- leg_quality_3R_mode_04
+- leg_quality_5R_mode_00
+- leg_quality_5R_mode_01
+- leg_quality_5R_mode_02
+- leg_quality_5R_mode_03
+- leg_quality_5R_mode_04
+# - leg_quality_8R_mode_00
+# - leg_quality_8R_mode_01
+# - leg_quality_8R_mode_02
+# - leg_quality_8R_mode_03
+# - leg_quality_8R_mode_04
+- gear_1
+- gear_2
+- gear_3
+- gear_4
+- gear_5
+# - gear_course_len_1_10.0
+# - gear_course_len_1_11.5
+- gear_course_len_1_12.0
+- gear_course_len_1_14.0
+# - gear_course_len_1_17.0
+- gear_course_len_2_10.0
+# - gear_course_len_2_11.5
+- gear_course_len_2_12.0
+- gear_course_len_2_14.0
+- gear_course_len_2_15.0
+- gear_course_len_2_16.0
+# - gear_course_len_2_17.0
+- gear_course_len_2_18.0
+- gear_course_len_2_20.0
+- gear_course_len_2_22.0
+- gear_course_len_2_24.0
+- gear_course_len_2_25.0
+- gear_course_len_2_26.0
+- gear_course_len_3_10.0
+- gear_course_len_3_12.0
+# - gear_course_len_3_13.0
+- gear_course_len_3_14.0
+- gear_course_len_3_15.0
+- gear_course_len_3_16.0
+- gear_course_len_3_17.0
+- gear_course_len_3_18.0
+# - gear_course_len_3_19.0
+- gear_course_len_3_20.0
+# - gear_course_len_3_21.0
+- gear_course_len_3_22.0
+- gear_course_len_3_24.0
+- gear_course_len_3_25.0
+- gear_course_len_3_26.0
+# - gear_course_len_4_10.0
+# - gear_course_len_4_13.0
+- gear_course_len_4_14.0
+- gear_course_len_4_16.0
+# - gear_course_len_4_17.0
+- gear_course_len_4_18.0
+# - gear_course_len_4_19.0
+- gear_course_len_4_20.0
+# - gear_course_len_4_21.0
+- gear_course_len_4_22.0
+- gear_course_len_4_24.0
+- gear_course_len_4_25.0
+- gear_course_len_4_26.0
+- gear_course_len_5_16.0
+- gear_course_len_5_18.0
+- gear_course_len_5_20.0
+- gear_course_len_5_23.0
+- gear_course_len_5_24.0
+- gear_course_len_5_26.0
+- course_len_10.0m
+# - course_len_11.5m
+- course_len_12.0m
+# - course_len_13.0m
+- course_len_14.0m
+- course_len_15.0m
+- course_len_16.0m
+- course_len_17.0m
+- course_len_18.0m
+# - course_len_19.0m
+- course_len_20.0m
+# - course_len_21.0m
+- course_len_22.0m
+- course_len_23.0m
+- course_len_24.0m
+- course_len_25.0m
+- course_len_26.0m
+- time_pred
+- agari_pred
+- pci_pred
+- first_corner_score_pred
+- final_corner_score_pred
+- third_corner_score_pred
+- leg_quality_pred
+- ten_3f_time_pred
+- ave_1f_time_pred
+# - correction_pred
+- correction_2_pred
+- speed_index_pred
+- agari_index_pred
+# - ten_3f_time_index_pred
