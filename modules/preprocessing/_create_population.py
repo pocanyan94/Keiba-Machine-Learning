@@ -1,6 +1,7 @@
 from datetime import datetime
 import pandas as pd
 from modules.constants._master import Master
+from IPython.display import display
 
 
 class CreatePopulationProcessor:
@@ -118,6 +119,7 @@ class CreatePopulationProcessor:
                 "日付": "date",
                 "馬名": "horse_name",
                 "  馬名": "horse_name",
+                "馬名S": "horse_name",
                 "騎手": "jockey_name",
                 "調教師": "trainer_name",
                 "生産者": "owner_name",

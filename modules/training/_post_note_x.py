@@ -21,9 +21,9 @@ class PostNoteX:
         コンテンツテキストを生成する。
 
         Args:
-            yosou (list): 予想のリスト。
-            kaime (list): 買い目のリスト。
-            kaikata (str): 推奨内容。
+            yosou: 予想のリスト。
+            kaime: 買い目のリスト。
+            kaikata: 推奨内容。
 
         Returns:
             str: フォーマットされたコンテンツテキスト。
@@ -88,7 +88,7 @@ class PostNoteX:
 
         print("4. 記事を下書き保存中...")
         success = PostNoteX.update_article_draft(
-            session, article_id, title, html_content, image_key
+            session, article_id, title, html_content
         )
 
         if success:
@@ -330,9 +330,7 @@ class PostNoteX:
         # <h2>の後に続く<li>を<ul>で囲む
         html = re.sub(
             r"(<h3>.*?</h3>)\s*((?:<li>.*?</li>\s*)+)",
-            lambda m: f"""{m.group(1)}<ul>
-                {"".join(m.group(2).strip().splitlines())}
-                </ul>""",
+            lambda m: f'{m.group(1)}<ul>{"".join(m.group(2).strip().splitlines())}</ul>',
             html,
             flags=re.DOTALL,
         )
