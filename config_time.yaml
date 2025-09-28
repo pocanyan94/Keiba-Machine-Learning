@@ -43,10 +43,10 @@ features:
 - flight_mining_index_relative
 - idm_index_relative
 # - jockey_index_relative
-# - info_index_relative
+- info_index_relative
 # - toral_index_relative
 # - popular_index_relative
-# - stable_index_relative
+- stable_index_relative
 - gekiso_index_relative
 - ten_index_relative
 - ten_rank_relative

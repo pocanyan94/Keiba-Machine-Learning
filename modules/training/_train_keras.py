@@ -24,6 +24,7 @@ from keras.layers import (
     LeakyReLU,
     Input,
     concatenate,
+    Lambda,
 )
 from keras.optimizers import Adam
 from keras.callbacks import EarlyStopping
@@ -73,19 +74,19 @@ class TrainKeras:
         # モデルの構築
         model = Sequential()
         model.add(Dense(256, input_dim=x_train.shape[1]))
-        model.add(LeakyReLU(alpha=0.1))
+        model.add(Lambda(TrainKeras.swish))
         model.add(BatchNormalization())
         model.add(Dropout(0.2))
         model.add(Dense(128))
-        model.add(LeakyReLU(alpha=0.1))
+        model.add(Lambda(TrainKeras.swish))
         model.add(BatchNormalization())
         model.add(Dropout(0.2))
         model.add(Dense(64))
-        model.add(LeakyReLU(alpha=0.1))
+        model.add(Lambda(TrainKeras.swish))
         model.add(BatchNormalization())
         model.add(Dropout(0.2))
         model.add(Dense(32))
-        model.add(LeakyReLU(alpha=0.1))
+        model.add(Lambda(TrainKeras.swish))
         model.add(BatchNormalization())
         model.add(Dropout(0.2))
         model.add(Dense(1))  # 出力層
@@ -517,9 +518,7 @@ class TrainKeras:
         featured_data["correction_2_pred"] = model_correction_2.predict(
             featured_data_time
         )
-        featured_data["speed_index_pred"] = model_speed_index.predict(
-            featured_data_time
-        )
+        featured_data["time_index_pred"] = model_speed_index.predict(featured_data_time)
         featured_data["agari_index_pred"] = model_agari_index.predict(
             featured_data_time
         )
@@ -625,6 +624,10 @@ class TrainKeras:
         # 最終的な評価データフレームを作成
         evaluation_df = pd.DataFrame(results).sort_values("pred", ascending=False)
         return evaluation_df
+
+    def swish(x):
+        """Swish活性化関数を定義"""
+        return x * K.sigmoid(x)
 
 
 class Swish(Layer):

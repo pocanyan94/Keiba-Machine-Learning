@@ -122,6 +122,7 @@ features:
 - oikiri_index_relative
 - shiagari_index_relative
 - rank_diff_1R_mean_relative
+- agari_1R_mean_relative
 - prize_1R_mean_relative
 - agari_diff_1R_mean_relative
 - ten_3f_time_1R_mean_relative
@@ -164,6 +165,7 @@ features:
 - gear_4_5_1R_max_relative
 - gear_3_1R_max_relative
 - rank_diff_1R_min_relative
+- agari_1R_min_relative
 - prize_1R_min_relative
 - agari_diff_1R_min_relative
 - pci_1R_min_relative
@@ -184,6 +186,7 @@ features:
 - gear_4_5_1R_min_relative
 - gear_3_1R_min_relative
 - rank_diff_box_category_1R_mean_relative
+- agari_box_category_1R_mean_relative
 - prize_box_category_1R_mean_relative
 - agari_diff_box_category_1R_mean_relative
 - ten_3f_time_box_category_1R_mean_relative
@@ -226,6 +229,7 @@ features:
 - gear_4_5_box_category_1R_max_relative
 - gear_3_box_category_1R_max_relative
 - rank_diff_box_category_1R_min_relative
+- agari_box_category_1R_min_relative
 - prize_box_category_1R_min_relative
 - agari_diff_box_category_1R_min_relative
 - pci_box_category_1R_min_relative
@@ -246,6 +250,7 @@ features:
 - gear_4_5_box_category_1R_min_relative
 - gear_3_box_category_1R_min_relative
 - rank_diff_class_1R_mean_relative
+- agari_class_1R_mean_relative
 - prize_class_1R_mean_relative
 - agari_diff_class_1R_mean_relative
 - ten_3f_time_class_1R_mean_relative
@@ -288,6 +293,7 @@ features:
 - gear_4_5_class_1R_max_relative
 - gear_3_class_1R_max_relative
 - rank_diff_class_1R_min_relative
+- agari_class_1R_min_relative
 - prize_class_1R_min_relative
 - agari_diff_class_1R_min_relative
 - pci_class_1R_min_relative
@@ -308,6 +314,7 @@ features:
 - gear_4_5_class_1R_min_relative
 - gear_3_class_1R_min_relative
 - rank_diff_gear_1R_mean_relative
+- agari_gear_1R_mean_relative
 - prize_gear_1R_mean_relative
 - agari_diff_gear_1R_mean_relative
 - ten_3f_time_gear_1R_mean_relative
@@ -350,6 +357,7 @@ features:
 - gear_4_5_gear_1R_max_relative
 - gear_3_gear_1R_max_relative
 - rank_diff_gear_1R_min_relative
+- agari_gear_1R_min_relative
 - prize_gear_1R_min_relative
 - agari_diff_gear_1R_min_relative
 - pci_gear_1R_min_relative
@@ -370,6 +378,7 @@ features:
 - gear_4_5_gear_1R_min_relative
 - gear_3_gear_1R_min_relative
 - rank_diff_3R_mean_relative
+- agari_3R_mean_relative
 - prize_3R_mean_relative
 - agari_diff_3R_mean_relative
 - ten_3f_time_3R_mean_relative
@@ -412,6 +421,7 @@ features:
 - gear_4_5_3R_max_relative
 - gear_3_3R_max_relative
 - rank_diff_3R_min_relative
+- agari_3R_min_relative
 - prize_3R_min_relative
 - agari_diff_3R_min_relative
 - pci_3R_min_relative
@@ -432,6 +442,7 @@ features:
 - gear_4_5_3R_min_relative
 - gear_3_3R_min_relative
 - rank_diff_box_category_3R_mean_relative
+- agari_box_category_3R_mean_relative
 - prize_box_category_3R_mean_relative
 - agari_diff_box_category_3R_mean_relative
 - ten_3f_time_box_category_3R_mean_relative
@@ -474,6 +485,7 @@ features:
 - gear_4_5_box_category_3R_max_relative
 - gear_3_box_category_3R_max_relative
 - rank_diff_box_category_3R_min_relative
+- agari_box_category_3R_min_relative
 - prize_box_category_3R_min_relative
 - agari_diff_box_category_3R_min_relative
 - pci_box_category_3R_min_relative
@@ -494,6 +506,7 @@ features:
 - gear_4_5_box_category_3R_min_relative
 - gear_3_box_category_3R_min_relative
 - rank_diff_class_3R_mean_relative
+- agari_class_3R_mean_relative
 - prize_class_3R_mean_relative
 - agari_diff_class_3R_mean_relative
 - ten_3f_time_class_3R_mean_relative
@@ -536,6 +549,7 @@ features:
 - gear_4_5_class_3R_max_relative
 - gear_3_class_3R_max_relative
 - rank_diff_class_3R_min_relative
+- agari_class_3R_min_relative
 - prize_class_3R_min_relative
 - agari_diff_class_3R_min_relative
 - pci_class_3R_min_relative
@@ -556,6 +570,7 @@ features:
 - gear_4_5_class_3R_min_relative
 - gear_3_class_3R_min_relative
 - rank_diff_gear_3R_mean_relative
+- agari_gear_3R_mean_relative
 - prize_gear_3R_mean_relative
 - agari_diff_gear_3R_mean_relative
 - ten_3f_time_gear_3R_mean_relative
@@ -598,6 +613,7 @@ features:
 - gear_4_5_gear_3R_max_relative
 - gear_3_gear_3R_max_relative
 - rank_diff_gear_3R_min_relative
+- agari_gear_3R_min_relative
 - prize_gear_3R_min_relative
 - agari_diff_gear_3R_min_relative
 - pci_gear_3R_min_relative
@@ -618,6 +634,7 @@ features:
 - gear_4_5_gear_3R_min_relative
 - gear_3_gear_3R_min_relative
 - rank_diff_5R_mean_relative
+- agari_5R_mean_relative
 - prize_5R_mean_relative
 - agari_diff_5R_mean_relative
 - ten_3f_time_5R_mean_relative
@@ -660,6 +677,7 @@ features:
 - gear_4_5_5R_max_relative
 - gear_3_5R_max_relative
 - rank_diff_5R_min_relative
+- agari_5R_min_relative
 - prize_5R_min_relative
 - agari_diff_5R_min_relative
 - pci_5R_min_relative
@@ -680,6 +698,7 @@ features:
 - gear_4_5_5R_min_relative
 - gear_3_5R_min_relative
 - rank_diff_box_category_5R_mean_relative
+- agari_box_category_5R_mean_relative
 - prize_box_category_5R_mean_relative
 - agari_diff_box_category_5R_mean_relative
 - ten_3f_time_box_category_5R_mean_relative
@@ -722,6 +741,7 @@ features:
 - gear_4_5_box_category_5R_max_relative
 - gear_3_box_category_5R_max_relative
 - rank_diff_box_category_5R_min_relative
+- agari_box_category_5R_min_relative
 - prize_box_category_5R_min_relative
 - agari_diff_box_category_5R_min_relative
 - pci_box_category_5R_min_relative
@@ -742,6 +762,7 @@ features:
 - gear_4_5_box_category_5R_min_relative
 - gear_3_box_category_5R_min_relative
 - rank_diff_class_5R_mean_relative
+- agari_class_5R_mean_relative
 - prize_class_5R_mean_relative
 - agari_diff_class_5R_mean_relative
 - ten_3f_time_class_5R_mean_relative
@@ -784,6 +805,7 @@ features:
 - gear_4_5_class_5R_max_relative
 - gear_3_class_5R_max_relative
 - rank_diff_class_5R_min_relative
+- agari_class_5R_min_relative
 - prize_class_5R_min_relative
 - agari_diff_class_5R_min_relative
 - pci_class_5R_min_relative
@@ -804,6 +826,7 @@ features:
 - gear_4_5_class_5R_min_relative
 - gear_3_class_5R_min_relative
 - rank_diff_gear_5R_mean_relative
+- agari_gear_5R_mean_relative
 - prize_gear_5R_mean_relative
 - agari_diff_gear_5R_mean_relative
 - ten_3f_time_gear_5R_mean_relative
@@ -846,6 +869,7 @@ features:
 - gear_4_5_gear_5R_max_relative
 - gear_3_gear_5R_max_relative
 - rank_diff_gear_5R_min_relative
+- agari_gear_5R_min_relative
 - prize_gear_5R_min_relative
 - agari_diff_gear_5R_min_relative
 - pci_gear_5R_min_relative
@@ -866,6 +890,7 @@ features:
 - gear_4_5_gear_5R_min_relative
 - gear_3_gear_5R_min_relative
 - rank_diff_8R_mean_relative
+- agari_8R_mean_relative
 - prize_8R_mean_relative
 - agari_diff_8R_mean_relative
 - ten_3f_time_8R_mean_relative
@@ -908,6 +933,7 @@ features:
 - gear_4_5_8R_max_relative
 - gear_3_8R_max_relative
 - rank_diff_8R_min_relative
+- agari_8R_min_relative
 - prize_8R_min_relative
 - agari_diff_8R_min_relative
 - pci_8R_min_relative
@@ -928,6 +954,7 @@ features:
 - gear_4_5_8R_min_relative
 - gear_3_8R_min_relative
 - rank_diff_box_category_8R_mean_relative
+- agari_box_category_8R_mean_relative
 - prize_box_category_8R_mean_relative
 - agari_diff_box_category_8R_mean_relative
 - ten_3f_time_box_category_8R_mean_relative
@@ -970,6 +997,7 @@ features:
 - gear_4_5_box_category_8R_max_relative
 - gear_3_box_category_8R_max_relative
 - rank_diff_box_category_8R_min_relative
+- agari_box_category_8R_min_relative
 - prize_box_category_8R_min_relative
 - agari_diff_box_category_8R_min_relative
 - pci_box_category_8R_min_relative
@@ -990,6 +1018,7 @@ features:
 - gear_4_5_box_category_8R_min_relative
 - gear_3_box_category_8R_min_relative
 - rank_diff_class_8R_mean_relative
+- agari_class_8R_mean_relative
 - prize_class_8R_mean_relative
 - agari_diff_class_8R_mean_relative
 - ten_3f_time_class_8R_mean_relative
@@ -1032,6 +1061,7 @@ features:
 - gear_4_5_class_8R_max_relative
 - gear_3_class_8R_max_relative
 - rank_diff_class_8R_min_relative
+- agari_class_8R_min_relative
 - prize_class_8R_min_relative
 - agari_diff_class_8R_min_relative
 - pci_class_8R_min_relative
@@ -1052,6 +1082,7 @@ features:
 - gear_4_5_class_8R_min_relative
 - gear_3_class_8R_min_relative
 - rank_diff_gear_8R_mean_relative
+- agari_gear_8R_mean_relative
 - prize_gear_8R_mean_relative
 - agari_diff_gear_8R_mean_relative
 - ten_3f_time_gear_8R_mean_relative
@@ -1094,6 +1125,7 @@ features:
 - gear_4_5_gear_8R_max_relative
 - gear_3_gear_8R_max_relative
 - rank_diff_gear_8R_min_relative
+- agari_gear_8R_min_relative
 - prize_gear_8R_min_relative
 - agari_diff_gear_8R_min_relative
 - pci_gear_8R_min_relative
